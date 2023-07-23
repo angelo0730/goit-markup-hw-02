@@ -6,24 +6,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <!-- FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
 
   <!-- BODY -->
   <body>
     <!-- HEADER -->
-    <header>
+    <header class="header">
       <!-- NAVIGATION -->
-      <nav>
-        <a href="">WEBSTUDIO</a>
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+      <nav class="header-navigation">
+        <a class="header-logo logo" href="">WEBSTUDIO</a>
+        <ul class="header-list list">
+          <li class="header item">
+            <a class="header-link link" href="">Studio</a>
+          </li>
+          <li class="header item">
+            <a class="header-link link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="header item">
+            <a class="header-link link" href="">Contacts</a>
+          </li>
         </ul>
 
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:++110001111111">+11 000 111 11 11</a></li>
+        <ul class="header-address">
+          <li>
+            <a class="header-address link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="header-address link" href="tel:++110001111111"
+              >+11 000 111 11 11</a
+            >
+          </li>
         </ul>
       </nav>
     </header>
@@ -31,39 +55,41 @@
     <!-- MAIN -->
     <main>
       <!-- Section 1 -->
-      <section>
-        <h1>Effective Solutions<br />for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="header">
+        <h1 class="header-title list">
+          Effective Solutions<br />for Your Business
+        </h1>
+        <button class="header-button button">Order Service</button>
       </section>
 
       <!-- Section 2 -->
-      <section>
+      <section class="section2">
         <div>
-          <ul>
-            <li>
-              <h3>Strategy</h3>
-              <p>
+          <ul class="section2-list list">
+            <li class="section2-item">
+              <h3 class="section2-title title">Strategy</h3>
+              <p class="section2-paragraph paragraph">
                 Our goal is to identify the business<br />problem to walk away
                 with the<br />perfect and creative solution.
               </p>
             </li>
-            <li>
-              <h3>Punctuality</h3>
-              <p>
+            <li class="section2-item">
+              <h3 class="section2-title title">Punctuality</h3>
+              <p class="section2-paragraph paragraph">
                 Bring the key message to the<br />brand's audience for the best
                 price<br />within the shortest possible time.
               </p>
             </li>
-            <li>
-              <h3>Diligence</h3>
-              <p>
+            <li class="section2-item">
+              <h3 class="section2-title title">Diligence</h3>
+              <p class="section2-paragraph paragraph">
                 Research and confirm brands that<br />present the strongest
                 digital<br />growth opportunities and minimize risk
               </p>
             </li>
-            <li>
-              <h3>Technologies</h3>
-              <p>
+            <li class="section2-item">
+              <h3 class="section2-title title">Technologies</h3>
+              <p class="section2-paragraph paragraph">
                 Design practice focused on digital<br />experiences. We bring
                 forth a deep<br />passion for problem-solving.
               </p>
@@ -73,11 +99,11 @@
       </section>
 
       <!-- Section 3 -->
-      <section>
+      <section class="section3">
         <div>
-          <h2>What Are We Doing</h2>
-          <ul>
-            <li>
+          <h2 class="section3-top-text top-text">What Are We Doing</h2>
+          <ul class="section3 list list">
+            <li class="section3-item">
               <img
                 src="./images/studio-img-1.jpg"
                 alt="studio-img-1"
@@ -85,7 +111,7 @@
                 height="294"
               />
             </li>
-            <li>
+            <li class="section3-item">
               <img
                 src="./images/studio-img-2.jpg"
                 alt="studio-img-2"
@@ -93,7 +119,7 @@
                 height="294"
               />
             </li>
-            <li>
+            <li class="section3-item">
               <img
                 src="./images/studio-img-3.jpg"
                 alt="studio-img-3"
@@ -106,59 +132,60 @@
       </section>
 
       <!-- Section 4 -->
-      <section>
+      <section class="section4">
         <div>
-          <h2>Our Team</h2>
+          <h2 class="section4-top-text top text">Our Team</h2>
           <ul>
-            <li>
+            <li class="section4-item">
               <img
                 src="./images/studio-img-4.jpg"
                 alt="studio-img-4"
                 width="270"
                 height="260"
               />
-              <h3>Mark Guerrero</h3>
-              <p>Product Designer</p>
+              <h3 class="section4-title title">Mark Guerrero</h3>
+              <p class="section4-paragraph paragraph">Product Designer</p>
             </li>
-            <li>
+            <li class="section4-item">
               <img
                 src="./images/studio-img-5.jpg"
                 alt="studio-img-5"
                 width="270"
                 height="260"
               />
-              <h3>Tom Ford</h3>
-              <p>Frontend Developer</p>
+              <h3 class="section4-title title">Tom Ford</h3>
+              <p class="section4-paragraph paragraph">Frontend Developer</p>
             </li>
-            <li>
+            <li class="section4-item">
               <img
                 src="./images/studio-img-6.jpg"
                 alt="studio-img-6"
                 width="270"
                 height="260"
               />
-              <h3>Camila Garcia</h3>
-              <p>Marketing</p>
+              <h3 class="section4-title title">Camila Garcia</h3>
+              <p class="section4-paragraph paragraph">Marketing</p>
             </li>
-            <li>
+
+            <li class="section4-item">
               <img
                 src="./images/studio-img-7.jpg"
                 alt="studio-img-7"
                 width="270"
                 height="260"
               />
-              <h3>Daniel Wilson</h3>
-              <p>UI Designer</p>
+              <h3 class="section4-title title">Daniel Wilson</h3>
+              <p class="section4-paragraph paragraph">UI Designer</p>
             </li>
           </ul>
         </div>
       </section>
     </main>
     <!-- FOOTER -->
-    <footer>
+    <footer class="footer">
       <div>
-        <a href="">WEBSTUDIO</a>
-        <p>
+        <a class="footer-logo logo">WEBSTUDIO</a>
+        <p class="footer-paragraph paragraph">
           Increase the flow of customers and <br />sales for your business
           with<br />digital marketing & growth solutions
         </p>
