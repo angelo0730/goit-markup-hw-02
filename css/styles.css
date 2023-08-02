@@ -137,9 +137,6 @@ line-height: 1.62;
 .page-footer.bg-footer{
   background-color: var(--navyblue);
 }
-.studio-footer{
-  color: var(--cloud);
-}
 .footer-description {
   color: var(--cloud);
 }
@@ -154,4 +151,7 @@ letter-spacing: 0.04em;
   color: var(--slatecolor);
   font-weight: 400;
   line-height: 1.87;
+}
+.studio-footer {
+  color: var(--cloud);
 }
