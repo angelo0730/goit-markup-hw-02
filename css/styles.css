@@ -82,25 +82,25 @@ line-height: 1.62;
 .benefits .description {
   color: var(--slatecolor);
   line-height: 1.17;
-  font-size: 16px;
+  font-size: 16px; 
   font-weight: 400;
 }
 .nav-menu .page {
   color: var(--navyblue);
   text-decoration: none;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.15;
   letter-spacing: 0.02em;
 }
 .nav-menu .page:hover,
 .nav-menu .page:focus,
 .nav-menu .page.current,
-.contact-menu .item.hover,
-.contact-menu .item.focus {
+.contacts-menu .item.hover,
+.contacts-menu .item.focus {
   color: var(--iriscolor);
 }
-.contact-menu .item {
+.contacts-menu .item {
   color: var(--slatecolor);
   font-weight: 400;
   line-height: 1.15;
@@ -154,4 +154,8 @@ letter-spacing: 0.04em;
 }
 .studio-footer {
   color: var(--cloud);
+}
+
+.project{
+  text-decoration: none;
 }
