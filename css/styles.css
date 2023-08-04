@@ -21,7 +21,7 @@ body {
 .logo-link {
   text-decoration: none;
   font-size: 0;
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
 }
 .logo-link > span {
@@ -52,14 +52,14 @@ body {
 }
 .button.primary:hover,
 .button.primary:focus {
-  background-color: var(--oceancolor);
+  background-color: var(--iriscolor);
   color: var(--button-filter);
 }
 .button.filter {
   background-color: var(--cloud);
   color: var(--iriscolor);
-font-weight: 500;
-line-height: 1.62;
+  font-weight: 500;
+  line-height: 1.62;
 }
 .button.filter:hover,
 .button.filter:focus,
@@ -82,7 +82,7 @@ line-height: 1.62;
 .benefits .description {
   color: var(--slatecolor);
   line-height: 1.17;
-  font-size: 16px; 
+  font-size: 16px;
   font-weight: 400;
 }
 .nav-menu .page {
@@ -96,8 +96,8 @@ line-height: 1.62;
 .nav-menu .page:hover,
 .nav-menu .page:focus,
 .nav-menu .page.current,
-.contacts-menu .item.hover,
-.contacts-menu .item.focus {
+.contacts-menu .item:hover,
+.contacts-menu .item:focus {
   color: var(--iriscolor);
 }
 .contacts-menu .item {
@@ -110,7 +110,7 @@ line-height: 1.62;
 .bg-hero {
   background-color: var(--navyblue);
 }
-.hero-title{
+.hero-title {
   color: var(--whitecolor);
   font-size: 56px;
   font-weight: 700;
@@ -121,33 +121,33 @@ line-height: 1.62;
 .bg-team {
   background-color: var(--cloud);
 }
-.team .name{
+.team .name {
   color: var(--navyblue);
   font-weight: 500;
   font-size: 20px;
   text-align: center;
   letter-spacing: 0.02em;
 }
-.team .position{
+.team .position {
   color: var(--slatecolor);
   font-size: 16px;
   font-weight: 400;
   text-align: center;
 }
-.page-footer.bg-footer{
+.page-footer.bg-footer {
   background-color: var(--navyblue);
 }
 .footer-description {
   color: var(--cloud);
 }
-.project .name{
-color: var(--navcolor);
-font-weight: 500;
-font-size: 20px;
-line-height: 2;
-letter-spacing: 0.04em;
+.project .name {
+  color: var(--navcolor);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: 0.04em;
 }
-.project .type{
+.project .type {
   color: var(--slatecolor);
   font-weight: 400;
   line-height: 1.87;
@@ -156,6 +156,6 @@ letter-spacing: 0.04em;
   color: var(--cloud);
 }
 
-.project{
+.project {
   text-decoration: none;
 }
